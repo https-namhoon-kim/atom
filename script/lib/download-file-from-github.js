@@ -10,7 +10,7 @@ module.exports = function(downloadURL, destinationPath) {
     headers: {
       Accept: 'application/vnd.github.v3.raw',
       'User-Agent': 'Atom Build',
-      Authorization: `token ${process.env.GITHUB_TOKEN}`
+      Authorization: `token ${process.env.GITHUB_TOKEN2}`
     }
   });
 
